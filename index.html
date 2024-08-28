@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- fav icon -->
+  <link rel="shortcut icon"
+    href="https://e7.pngegg.com/pngimages/298/99/png-clipart-gray-suitcase-icon-computer-icons-briefcase-business-business-case-job-portfolio-suitcase-icon-miscellaneous-blue.png"
+    type="image/x-icon">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,900;1,400&display=swap"
+    rel="stylesheet" />
+  <!-- Tailwind & Daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Mita Akther - Portfolio</title>
+</head>
+
+<body class="font-['Ubuntu']">
+  <!-- nav bar section -->
+  <header class="bg-[#66A5AD]">
+    <nav class="md:container md:mx-auto">
+      <div class="navbar">
+        <div class="flex-1">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#66A5AD] text-white rounded-box w-52">
+              <li><a class=" text-lg hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">About</a></li>
+              <li><a class=" text-lg hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Contact</a></li>
+              <li><a class=" text-lg hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Hire Me</a></li>
+              <li><a class=" text-lg hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Linkedin</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost uppercase text-lg md:text-3xl text-white">Mita <span
+              class="text-[#66A5AD] bg-white rounded-md px-3 py-1"> Akther</span></a>
+        </div>
+        <div class=" hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-lg text-white">
+            <li><a class=" hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">About</a></li>
+            <li><a class=" hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Contact</a></li>
+            <li><a class=" hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Hire Me</a></li>
+            <li><a class=" hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Linkedin</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <a href="https://www.facebook.com/mita.akther.33671" target="_blank"><img
+                  src="images/mita-avatar.jpg" /></a>
+            </div>
+          </label>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="">
+    <!-- Banner Section -->
+    <section>
+      <div class="hero h-[93vh] bg-bottom" style="background-image: url('./images/mita.jpg');">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="md:container md:mx-auto text-center lg:text-center text-white lg:flex lg:justify-end">
+          <div class="lg:max-w-[50%] ">
+            <h1 class="mb-5 text-4xl md:text-7xl font-bold">Mita <span class="text-[#66A5AD]">Akther</span></h1>
+            <blockquote class="my-quote text-xl md:text-4xl">
+              <span class="font-['Ubuntu'] text-error">Being A <span class="text-[#66A5AD]">Better Version</span> of
+                Myself</span>
+            </blockquote>
+            <p class="mb-5 text-lg text-yellow-50">I’m doing Bachelor in Science in Textile Engineering with over three
+              years of teaching experience in primary and secondary levels. Currently I am teaching in two coaching
+              centre where the students come from various schools, blending a diverse culture into the classroom,
+              teaching where is interesting as well as challenging!</p>
+            <!-- <button class="btn bg-[#66A5AD] border-none text-yellow-50"><a class=" hover:text-[#66A5AD]-focus hover:bg-[#C4DFE6]">Contact</a></button> -->
+            <!-- <a href="https://www.facebook.com/mita.akther.33671" class="rounded-xl btn bg-[#66A5AD] text-white hover:bg-[#C4DFE6] px-4 py-2 inline-block">
+              Contact Me
+            </a> -->
+            <a href="https://www.facebook.com/mita.akther.33671" class="btn border-none bg-[#66A5AD] text-yellow-50 rounded-xl  hover:text-[black] hover:bg-[#C4DFE6] focus">
+              Contact Me
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="md:container md:mx-auto w-[90%] lg:w-auto mx-auto my-10">
+      <h1 class="lg:w-[40%] rounded-xl text-5xl lg:text-6xl text-center bg-[#66A5AD] text-white mx-auto">Skills I Know
+      </h1>
+      <div class="flex flex-col lg:flex-row justify-between items-center mt-10 gap-10">
+        <!-- Left Side Content -->
+        <div class="w-full flex-1">
+          <img class="mx-auto rounded-xl" src="images/mita-card.jpg">
+          </img>
+        </div>
+        <!-- Right Side Content -->
+        <div class="w-full flex-1">
+          <div class="wrapper">
+            <span class="first-text">I'm a</span>
+            <ul class="sec-text text-[#66A5AD]">
+              <li><span>Traveller</span></li>
+              <li><span>Teacher</span></li>
+              <li><span>Marketing Exceutive</span></li>
+              <li><span>Thinker</span></li>
+            </ul>
+          </div>
+          <p class="lg:max-w-[90%] w-">Are you looking for a dynamic and multifaceted individual who excels in teaching,
+            marketing, and exploring the world? Look no further! With a Bachelor of Science in Textile Engineering and
+            over three years of teaching experience, I bring a unique blend of skills and passions to the table.</p><br>
+          <p class="lg:max-w-[90%] w-">My teaching journey has taken me to vibrant coaching centers where I engage with
+            students from diverse backgrounds. This experience allows me to create an enriching and adaptable learning
+            environment that meets the varied needs of my students, ensuring their educational experience is both
+            engaging and effective.</p><br>
+          <p class="lg:max-w-[90%] w-">In addition to teaching, my passion for traveling fuels my creativity and
+            broadens my perspective. Exploring new cultures and environments enriches my understanding of the world,
+            inspiring fresh ideas and innovative approaches that I bring to all my professional endeavors.</p><br>
+          <p class="lg:max-w-[90%] w-">As a marketing executive, I leverage my diverse experiences to craft compelling
+            strategies and campaigns that drive results. My background in Textile Engineering further enhances my
+            problem-solving skills, allowing me to approach challenges with a unique and effective perspective.</p><br>
+          <p class="lg:max-w-[90%] w-">Eager to collaborate on exciting projects and make a positive impact? Let’s
+            connect and explore how my diverse skills and experiences can contribute to your goals and help you achieve
+            new heights. Reach out now to start our journey together!</p><br>
+
+            <a href="#" class="btn border-none bg-[#66A5AD] text-yellow-50 rounded-xl  hover:text-[black] hover:bg-[#C4DFE6] focus">
+              Hire Me
+            </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
